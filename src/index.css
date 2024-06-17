@@ -21,6 +21,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: KryptonMedium;
+  src: url(./assets/MonaspaceKrypton-Medium.woff) format('woff');
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

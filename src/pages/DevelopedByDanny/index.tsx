@@ -15,7 +15,7 @@ const DevelopedByDanny: React.FC = () => {
     >
       <Text
         textType="p"
-        fontFamily="Monaspace Krypton"
+        fontFamily="KryptonMedium"
         fontWeight={500}
         fontSize="calc(4vw + 4vh)"
         onClick={() => navigate('/home')}
