@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import DevelopedByDanny from './pages/DevelopedByDanny/index.tsx';
 import ErrorPage from './pages/ErrorPage/index.tsx';
 import App from './pages/App/index.tsx';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <DevelopedByDanny />,
